@@ -2,7 +2,7 @@ name: aws-v5-cicd
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch: null
 
 # V2는 사용자 정의 배포를 지원하고 Zulu OpenJDK, Eclipse Temurin 및 Adopt OpenJDK를 기본적으로 지원합니다. V1은 Zulu OpenJDK만 지원합니다.

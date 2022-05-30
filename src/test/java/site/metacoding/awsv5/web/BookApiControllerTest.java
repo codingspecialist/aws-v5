@@ -1,4 +1,4 @@
-package site.metacoding.awsv4.web;
+package site.metacoding.awsv5.web;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

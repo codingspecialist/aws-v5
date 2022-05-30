@@ -1,10 +1,8 @@
-package site.metacoding.awsv4;
-
+package site.metacoding.awsv5;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class AwsV4ApplicationTests {
-
+class AwsV5ApplicationTests {
 
 }
