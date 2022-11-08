@@ -80,7 +80,7 @@ public class BookApiControllerTest {
 
         assertEquals(HttpStatus.OK, response.getStatusCode());
         assertEquals("제목1", title1);
-        assertEquals("제목3", title2);
+        assertEquals("제목2", title2);
     }
 
     @Order(2)
