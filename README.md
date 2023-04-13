@@ -7,7 +7,7 @@
 - RDS
 - 엘라스틱IP
 
-# 변경사항
+# 변경사항 우분투 최신버전으로 인해!!
 - setup-java@v2로 변경
 - distribution 필수임 (벤더사)
 - run밑에 shell 제거, 디폴트라서 안적어도 됨
