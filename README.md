@@ -1,4 +1,4 @@
-# AWS 초급 강의 V5 엘라스틱 빈스톡 CI/CD 배포
+# AWS 초급 강의 V5 엘라스틱 빈스톡 CI/CD 배포33
 - EC2 2개
 - ALB
 - NLB
