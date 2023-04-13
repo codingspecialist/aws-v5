@@ -6,7 +6,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mariadb://${rds.hostname}:${rds.port}/${rds.db.name} 
+    url: jdbc:mariadb://${rds.hostname}:${rds.port}/${rds.db.name}
     driver-class-name: org.mariadb.jdbc.Driver
     username: ${rds.username}
     password: ${rds.password}
@@ -17,7 +17,9 @@ spring:
       ddl-auto: none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
 logging:
   level:
     '[org.springframework.boot.web]': INFO
