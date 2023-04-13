@@ -17,7 +17,9 @@ spring:
       ddl-auto: none
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
 logging:
   level:
     '[org.springframework.boot.web]': INFO
