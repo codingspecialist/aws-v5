@@ -18,6 +18,8 @@ jobs:
           java-version: 11
           distribution: zulu
       - name: Build with Gradle
+        run: chmod +x ./gradlew
+      - name: Build with Gradle
         run: ./gradlew clean build
 
       # UTC가 기준이기 때문에 한국시간으로 맞추려면 +9시간 해야 한다
