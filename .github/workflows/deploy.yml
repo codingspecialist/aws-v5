@@ -20,7 +20,7 @@ jobs:
       - name: Build with Gradle
         run: ./gradlew clean build
 
-      # UTC가 기준이기 때문에 한국시간으로 맞추려면 +9시간 해야 한다!
+      # UTC가 기준이기 때문에 한국시간으로 맞추려면 +9시간 해야 한다
       - name: Get current time
         uses: 1466587594/get-current-time@v2
         id: current-time
