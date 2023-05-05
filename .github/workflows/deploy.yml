@@ -38,10 +38,11 @@ jobs:
         run: |
           mkdir -p deploy
           cp ./build/libs/*.jar deploy/
-          mv deploy/*.jar deploy/application.jar
           cp Procfile deploy/
           cp -r .ebextensions deploy/
-          cd deploy && zip -r deploy.zip .
+          cd deploy
+          mv *.jar application.jar
+          zip -r deploy.zip .
       - name: Deploy to EB
         uses: einaregilsson/beanstalk-deploy@v21
         with:
